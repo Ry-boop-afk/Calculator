@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calc-box">
+        <h1>BASIC FOUR FUNCTION CALCULATOR</h1>
+        <div class="calc">
+            <div class="screen"></div>
+            <button class="clear" onclick = "clearDisplay()">clear</button>
+            <div class="calc-body">
+                <button onclick = "valueSelector('1')" class="num">1</button>
+                <button onclick = "valueSelector('2')" class="num">2</button>
+                <button onclick = "valueSelector('3')" class="num">3</button>
+                <button onclick = "operation('+')"     class="operand">+</button>
+                <button onclick = "valueSelector('4')" class="num">4</button>
+                <button onclick = "valueSelector('5')" class="num">5</button>
+                <button onclick = "valueSelector('6')" class="num">6</button>
+                <button onclick = "operation('-')"     class="operand">-</button>
+                <button onclick = "valueSelector('7')" class="num">7</button>
+                <button onclick = "valueSelector('8')" class="num">8</button>
+                <button onclick = "valueSelector('9')" class="num">9</button>
+                <button onclick = "operation('x')"     class="operand">x</button>
+                <button onclick = "valueSelector('.')" class="num">.</button>
+                <button onclick = "valueSelector('0')" class="num">0</button>
+                <button onclick = "operation('=')"     class="num">=</button>
+                <button onclick = "operation('/')"     class="num">/</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
